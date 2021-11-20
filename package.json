@@ -1,0 +1,23 @@
+{
+  "name": "symulatorsmieciarki",
+  "version": "4.2.0",
+  "description": "Symulator Śmieciarki Setup",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "compile": "electron-builder build"
+  },
+  "repository": "-",
+  "author": "Techland Polska",
+  "devDependencies": {
+    "electron": "^1.8.2",
+    "electron-builder": "^22.13.1"
+  },
+  "build": {
+    "appId": "com.tanukiee.smieciarka",
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    }
+  }
+}
